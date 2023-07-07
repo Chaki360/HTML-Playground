@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+
 }
 
 .menu-container {
@@ -80,7 +81,7 @@
 }
 
 .about-title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 
@@ -124,4 +125,42 @@
 
 .about-img {
     width: 500px;
+}
+
+.service-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.service {
+    height: 310px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 10px lightskyblue;
+    background-color: azure;
+    padding: 12px;
+}
+
+.service-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-img {
+    width: 100px;
+}
+
+
+.service-btn {
+    padding: 10px 12px;
+    background-color: rgb(87, 92, 224);
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-items: center;
 }
