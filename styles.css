@@ -15,8 +15,10 @@
 }
 
 .logo-icon {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
+    cursor: pointer;
+
 }
 
 .menu-items {
@@ -27,11 +29,12 @@
 .item {
     margin-right: 10px;
     padding-right: 8px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .item:hover {
     color: darkkhaki;
+    cursor: pointer;
 }
 
 .banner-container {
@@ -39,6 +42,9 @@
     justify-content: space-around;
     height: 100vh;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* color: aliceblue;
     background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg"); */
 }
@@ -46,6 +52,27 @@
 .heading-text {
     font-size: 35px;
     font-weight: 700;
+}
+
+.description-text {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.btn {
+    padding: 12px 18px;
+    background-color: royalblue;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: rgba(82, 112, 199, 0.932);
+    cursor: pointer;
 }
 
 .banner-img {
