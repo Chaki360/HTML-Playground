@@ -110,6 +110,11 @@
 
 }
 
+.about-btn:hover {
+    background-color: rgba(82, 112, 199, 0.932);
+    cursor: pointer;
+}
+
 .about-container {
     display: flex;
     justify-content: space-around;
